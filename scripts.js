@@ -20,6 +20,7 @@ localStorage.setItem("game_count", game_count);
 document.getElementById("win_count").innerHTML="Games Won: "+win_count;
 localStorage.setItem("win_count", win_count);
 document.getElementById("win_loss").innerHTML="Win/Loss: "+win_count+ "/" +lose_count;
+localStorage.setItem("lose_count", lose_count);
 document.getElementById("player_stats").innerHTML="Player: Rock: "+player_rock/game_count*100+ "% Paper: " +player_paper/game_count*100+"% Scissors: "+player_scissors/game_count*100 +"%";
 localStorage.setItem("player_rock",player_rock);
 localStorage.setItem("player_paper",player_paper);
@@ -101,6 +102,7 @@ document.getElementById("confirm_choice").addEventListener('click', function () 
     document.getElementById("win_count").innerHTML="Games Won: "+win_count;
     localStorage.setItem("win_count", win_count);
     document.getElementById("win_loss").innerHTML="Win/Loss: "+win_count+ "/" +lose_count;
+    localStorage.setItem("lose_count", lose_count);
     document.getElementById("player_stats").innerHTML="Player: Rock: "+player_rock/game_count*100+ "% Paper: " +player_paper/game_count*100+"% Scissors: "+player_scissors/game_count*100 +"%";
     localStorage.setItem("player_rock",player_rock);
     localStorage.setItem("player_paper",player_paper);
