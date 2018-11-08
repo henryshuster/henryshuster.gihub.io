@@ -1,0 +1,44 @@
+html {
+  background-color: #10f2f2;
+}
+h1 {
+  color: #ff0000;
+  background-color: #ffd972;
+  text-align: center;
+}
+
+div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: #ffd972;
+
+}
+.btn{
+    border:#ffffff;
+    background-color: #ffd972;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+}
+/* On mouse-over */
+.btn {background: ##ffd972;}
+
+.btn:hover {
+    background-color: #ffedb5;
+    color: black;
+}
+#bowser{
+  text-align: right;
+}
+
+
+.hidden{
+  display: none;
+}
+
+.visible{
+  display:block;
+}
